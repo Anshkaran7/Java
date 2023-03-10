@@ -1,17 +1,17 @@
-class calculator {
-    public void add() {
-        System.out.println("Music Playing...");
-    }
+// class calculator {
+//     public void add() {
+//         System.out.println("Music Playing...");
+//     }
 
-    public String getmePen(int cost) {
-        if(cost>=10){
-            return "pen";
-        }
-        else{
-            return "Nothing";
-        }
-    }
-}
+//     public String getmePen(int cost) {
+//         if(cost>=10){
+//             return "pen";
+//         }
+//         else{
+//             return "Nothing";
+//         }
+//     }
+// }
 
 public class Method {
     public static void main(String args[]) {
@@ -19,6 +19,7 @@ public class Method {
         OBJ.add();
         String src=OBJ.getmePen(10);
         System.out.println(src);
+        
     }
 }
 
